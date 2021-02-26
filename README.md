@@ -8,10 +8,10 @@ The NT hashes file must be the output of secretsdump.py or other tool that has t
 <user>:<pid>:<LM_hash>:<NTLM_hash>:::
 ```
 
-# Pre-requisites
+## Pre-requisites
 This tool has been tested in Kali Linux 2020.1, so i you use this OS, you will not need install john the ripper and hashcat.
 
-# Usage
+## Usage
 Cracking process using john the ripper
 
 ```
@@ -32,3 +32,5 @@ Count passwords, from hashes previously cracked with hashcat
 ```
 ./crackcount -t -i <hashes.NT>
 ```
+
+![poc](https://raw.githubusercontent.com/mrodriguezsv/CrackCount/main/2021-02-26%2013_25_32-Kali-Linux-2020.3-vmware-amd64%20-%20VMware%20Workstation.png?token=AIX2PV5KFM7QH7FRA5AZVKTAHDVQI)
