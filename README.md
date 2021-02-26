@@ -33,4 +33,4 @@ Count passwords, from hashes previously cracked with hashcat
 ./crackcount -t -i <hashes.NT>
 ```
 
-![poc](https://raw.githubusercontent.com/mrodriguezsv/CrackCount/main/poc.png?token=AIX2PVY6XOLZW5GOV2CIH5DAHDWDA)
+![poc](https://raw.githubusercontent.com/rraposet/CrackCount/main/poc.png?token=AIX2PVY6XOLZW5GOV2CIH5DAHDWDA)
