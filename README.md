@@ -33,4 +33,4 @@ Count passwords, from hashes previously cracked with hashcat
 ./crackcount -t -i <hashes.NT>
 ```
 
-![poc](https://raw.githubusercontent.com/mrodriguezsv/CrackCount/main/2021-02-26%2013_25_32-Kali-Linux-2020.3-vmware-amd64%20-%20VMware%20Workstation.png?token=AIX2PV5KFM7QH7FRA5AZVKTAHDVQI)
+![poc](https://raw.githubusercontent.com/mrodriguezsv/CrackCount/main/poc.png?token=AIX2PVY6XOLZW5GOV2CIH5DAHDWDA)
