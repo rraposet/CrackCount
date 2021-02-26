@@ -24,7 +24,7 @@ count_john() {
                 hash=$(echo $i | cut -d: -f2,3)
                 ocurrencias=$(grep $hash $file_count | wc -l)
 
-                arrayPass+=('Password: '${pass}' Ocurrencias: '${ocurrencias})
+                arrayPass+=('Password: '${pass}' Occurrences: '${ocurrencias})
         done
 
         echo "---------------"
@@ -59,7 +59,7 @@ count_hashcat() {
                 hash=$(echo $i | cut -d: -f1)
 		ocurrencias=$(grep $hash $file_count | wc -l)
 
-		arrayPass+=('Password: '${pass}' Ocurrencias: '${ocurrencias})
+		arrayPass+=('Password: '${pass}' Occurrences: '${ocurrencias})
         done
 
         echo "---------------"
