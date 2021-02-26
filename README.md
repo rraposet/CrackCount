@@ -9,7 +9,7 @@ The NT hashes file must be the output of secretsdump.py or other tool that has t
 ```
 
 ## Pre-requisites
-This tool has been tested in Kali Linux 2020.1, so i you use this OS, you will not need install john the ripper and hashcat.
+This tool has been tested in Kali Linux 2020.1.
 
 ## Usage
 Cracking process using john the ripper
